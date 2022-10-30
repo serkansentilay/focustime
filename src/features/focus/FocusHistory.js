@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, FlatList, SafeAreaView } from 'react-native'
 import React from 'react'
-
+import { colors } from '../../utils/colors'
 import { fontSizes, spacing } from '../../utils/sizes'
 import { RoundedButton } from '../../components/RoundedButton'
 
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
         fontSize: fontSizes.md
     }),
     title: {
-        color: 'white',
+        color: colors.white,
         fontSize: fontSizes.lg
     },
     clearContainer: {
